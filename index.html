@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ko-Indo Kingdom</title>
+
+    <!-- Import Stylesheets and fonts -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo" alt="Logo"></div>
+                    </a>
+
+
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>Ko-Indian Kingdom</h1></a>
+                    <p>The best since 2019</p>
+                </div>
+
+                <!-- To create a collapsible menu item when the screen size is small. Taken from the bootstrap3 documentation
+                "data-" are for the javascript plugins. aria-expanded is for screen readers. sr-only is again, only for screen readers.-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-info-sign lol"></span><br class="hidden-xs"> About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="menu.html">
+                                <span class="glyphicon glyphicon-cutlery lol"></span>
+                                <br class="hidden-xs"> Menu
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-shopping-cart lol"></span><br class="hidden-xs"> Order
+                            </a>
+                        </li>
+                        <li id="phone" class="hidden-xs">
+                            <a href="tel:070-1826-5231">
+                                <span>070-1826-5231</span>
+                                <div>Or Call Us!</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- End of Header -->
+
+    <div id="order-btn" class="visible-xs">
+        <a class="btn" href="#">
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+            Order Now!
+        </a>
+    </div>
+
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:070-1826-5231">
+            <span class="glyphicon glyphicon-phone"></span>
+            070-1826-5231
+        </a>
+    </div>
+
+    <div id="maincontent" class="container">
+        <div class="jumbotron">
+            <img src="pictures/stockrestaurant768.png" alt="Image of Restaurant" class="img-responsive visible-xs">
+
+        </div>
+
+        <div id="tile" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="game.html"><div id="game-tile"><span>Game</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="quiz.html"><div id="quiz-tile"><span>Quiz</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/eP1GkCNGYDD2" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d656.8056104271218!2d139.46720839107724!3d35.39736458528172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ses!4v1547381692472" width=100% height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <span>Map</span>
+                    </div>
+                </a>
+            </div>
+        </div> <!-- End of tiles -->
+    </div> <!--End of Main Content -->
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Mon-Fri: 12pm - 12am<br>
+                    Sat: 12pm - 11pm<br>
+                    Sun: 12pm - 4pm
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    1-3-1 Shonandai, <br>
+                    Fujisawa-shi, Kanagawa-ken<br>
+                    Japan 252-0804
+                    <hr class="visible-xs">
+                </section>
+                <section id="socialmedia" class="col-sm-4">
+                    <span>Follow us on: </span><br>
+                    <a href="#"><img src="pictures/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="pictures/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="pictures/twitter.png" alt="twitter"></a>
+                    <hr class="visible-xs">
+                </section>
+            </div>
+        </div>
+    </footer>
+
+    <!--import javascript files -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+body
+{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF0E9;
+    color: #ffffff;
+}
+
+#header-nav {
+    background-color: #FFF0E9;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo {
+    background: url("../pictures/logo.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+/* To make logo look neater */
+.navbar-brand {
+    padding-top: 25px;
+}
+
+/* Ko-Indian Kingdom h1 customisation */
+.navbar-brand h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #442B2D;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+/* To remove the underline when focused or hovered upon */
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: black;
+    font-style: italic;
+    font-size: .9em;
+
+}
+
+.navbar-toggle {
+    margin-top: 32px;
+}
+
+#nav-list {
+    margin-top: 20px;
+}
+
+#nav-list a {
+    color: #442B2D;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #ffffff;
+}
+
+#nav-list a span {
+    font-size: 1.2em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+/* Phone number customisation */
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    text-align: right;
+    font-style: italic;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #442B2D;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+#game-tile, #quiz-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #442B2D;
+    overflow: hidden;
+}
+
+#game-tile:hover, #quiz-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #442B2D;
+}
+
+#game-tile {
+    background: url("../pictures/tictactoe.jpg") no-repeat center;
+    background-size: 100%;
+}
+
+#quiz-tile {
+    background: url("../pictures/quiz.jpg") no-repeat center;
+    background-size: 100%;
+}
+
+#menu-title {
+    color: #442B2D;
+    font-weight: bold;
+}
+
+#appetizers-title{
+    color: #442B2D;
+    font-weight: bold;
+}
+
+#game-tile span, #quiz-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #FFF0E9;
+    color: #442B2D;
+    opacity: .8;
+}
+
+/** Footer **/
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #FFFFFF;
+    border-top: 0;
+    color: #442B2D;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours, #address, #socialmedia {
+    line-height: 1.5;
+}
+
+#hours > span, #address > span, #socialmedia > span {
+    font-size: 1.3em;
+}
+
+#socialmedia {
+    font-style: italic;
+}
+
+#socialmedia a img {
+    padding-left: 10px;
+}
+
+/** Menu Page **/
+.menu-item-tile {
+    position: relative;
+    border: 2px solid #442B2D;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+/** Menu Page **/
+.menu-item-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: #FFF0E9;
+    color: #442B2D;
+    opacity: 0.8;
+}
+
+.menu-item-tile:hover {
+    box-shadow: 0 1px 5px 1px #442B2D;
+}
+
+#menu-title + h3 {
+    margin-bottom: 50px;
+}
+
+#main-course-title {
+    margin-bottom: 50px;
+    color: #442B2D;
+    font-weight: bold;
+}
+
+/******** Media Queries ********/
+
+/****** For Large Devices ****/
+@media (min-width: 1200px)
+{
+    .container .jumbotron {
+        background: url("../pictures/stockrestaurant1200.png") no-repeat;
+        height: 675px;
+        box-shadow: 0 0 25px #442B2D;
+        border: 2px solid #442B2D;
+    }
+
+    #socialmedia {
+        text-align: right;
+    }
+}
+
+/***** For Medium Devices *****/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #logo{
+        background: url("../pictures/logo_med.png");
+        width: 65px;
+        height: 66px;
+        margin: 16px 10px 0 0;
+    }
+
+    .container .jumbotron {
+        background: url("../pictures/stockrestaurant992.png") no-repeat;
+        height: 510px;
+        box-shadow: 0 0 25px #442B2D;
+        border: 2px solid #442B2D;
+    }
+
+    #socialmedia {
+        text-align: right;
+    }
+
+}
+
+/**** For Small Devices ****/
+@media(min-width: 768px) and (max-width: 991px)
+{
+    .container .jumbotron {
+        background: url("../pictures/stockrestaurant768.png");
+        height: 432px;
+        box-shadow: 0 0 25px #442B2D;
+        border: 2px solid #442B2D;
+    }
+
+    #socialmedia {
+        text-align: right;
+    }
+}
+
+/**** For Extra Small Devices *****/
+@media(max-width: 767px) {
+    .navbar-brand p {
+        display: none;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.1em;
+
+    }
+
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    .jumbotron {
+        margin-top: 0;
+        padding: 0;
+        box-shadow: 0 0 25px #442B2D;
+        border: 2px solid #442B2D;
+    }
+
+    .container .jumbotron {
+        padding: 0;
+    }
+
+    #quiz-tile, #game-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .panel-footer section:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    .panel-footer section hr {
+        width: 50%;
+    }
+
+}
+
+    #order-btn > a {
+    font-size: 1em;
+    display: block;
+    margin: 15px 20px;
+    padding: 10px;
+    border: 2px solid #442B2D;
+    background-color: #442B2D;
+    color: #FFF0E9;
+    }
+
+    #call-btn > a {
+    font-size: 1em;
+    display: block;
+    margin: 15px 20px;
+    padding: 10px;
+    border: 2px solid #442B2D;
+    background-color: #442B2D;
+    color: #FFF0E9;
+    }
+
+/*** For Extra Extra small devices **/
+@media (max-width: 479px) {
+    /*Header*/
+    .navbar-brand h1 {
+    padding-top: -5px;
+    font-size: 7vw;
+}
+
+    /*Home Page */
+    #game-tile, #quiz-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+
+    }
+}
+
+
+
+
