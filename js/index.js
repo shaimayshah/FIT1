@@ -12,7 +12,7 @@ $(function () {
 /* To load homepage */
 (function (global) {
 
-    var dc = {};
+    var ss = {};
 
     var homeHtml = "snippets/home-snip.html";
 
@@ -44,6 +44,6 @@ $(function () {
     });
 
 
-    global.$dc = dc;
+    global.$ss = ss;
 
 })(window);
