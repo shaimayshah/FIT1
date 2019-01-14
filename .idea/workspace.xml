@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="373" column="85" selection-start-line="373" selection-start-column="85" selection-end-line="373" selection-end-column="85" />
+            <state relative-caret-position="83">
+              <caret line="397" column="93" selection-start-line="397" selection-start-column="93" selection-end-line="397" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -203,7 +203,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547362390497</updated>
-      <workItem from="1547362391778" duration="33703000" />
+      <workItem from="1547362391778" duration="34109000" />
     </task>
     <task id="LOCAL-00001" summary="Just trying it out.">
       <created>1547396044902</created>
@@ -254,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547409326057</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Food Images.">
+      <created>1547448792225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547448792225</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33703000" />
+    <option name="totallyTimeSpent" value="34109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
@@ -381,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="373" column="85" selection-start-line="373" selection-start-column="85" selection-end-line="373" selection-end-column="85" />
+        <state relative-caret-position="83">
+          <caret line="397" column="93" selection-start-line="397" selection-start-column="93" selection-end-line="397" selection-end-column="93" />
         </state>
       </provider>
     </entry>
