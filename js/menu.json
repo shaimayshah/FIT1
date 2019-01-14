@@ -1,0 +1,10 @@
+[{"id": 1, "name": "Paneer Tikka"},{"id": 2, "name": "Tandoori Chicken"}, {"id": 3, "name": "Bhel Puri"}, {"id": 4, "name": "Samosa"},{"id": 5, "name": "Dahi Bhalla"},
+  {"id": 6, "name":  "Aloo Pakora"},{"id": 7, "name": "Podi Idli"},{"id": 8, "name": "Chilli Paneer"}, {"id": 9, "name": "Kimchi"}, {"id": 10, "name": "Japchae"},
+  {"id": 11, "name": "Tteok"}, {"id": 12, "name": "Pajeon"}, {"id": 13, "name": "Kimchi Mandu"}, {"id": 14, "name": "Jjin Mandu"}, {"id": 15, "name": "Yaki Mandu"},
+  {"id": 16, "name": "Bulgogi"}, {"id": 17, "name": "Samgye Tang"},{"id": 18, "name": "Bibimbap"}, {"id": 19, "name": "Bossam"}, {"id": 20, "name": "Kimchi Jjigae"},
+  {"id": 21, "name": "Sundubu-Jjigae"}, {"id": 22, "name": "Nakji Bokkeum"},{"id": 23, "name": "Seolleongtang"}, {"id": 24, "name": "Naengmyun"},{"id": 25, "name": "Kimchi Bokkeumbap"},
+  {"id": 26, "name": "Roti"}, {"id": 27, "name": "Naan"}, {"id": 28, "name": "Paratha"},{"id": 29, "name": "Yellow Dal"}, {"id": 30, "name": "Butter Chicken"}, {"id": 31, "name": "Malai Tikka"},
+  {"id": 32, "name": "Malai Paneer"}, {"id": 33, "name":"Shahi Paneer"}, {"id": 34, "name": "Kadhai Paneer"}, {"id": 35, "name": "Basmati Rice"}, {"id": 36, "name": "Aloo Gobi"},
+  {"id": 37, "name": "Biryani"}, {"id": 38, "name":  "Bhindi Masala"}, {"id": 39, "name": "Jalebi"}, {"id": 40, "name": "Sooji ka Halwa"}, {"id": 41, "name": "Gajar ka Halwa"},
+  {"id": 42, "name": "Gulab Jamun"}, {"id": 43, "name": "Shrikhand"}, {"id": 44, "name": "Kheer"}, {"id": 45, "name": "Bingsoo"}, {"id": 46, "name": "Sujeonggwa"}, {"id": 47, "name": "Songpyeon"}, {"id": 48, "name": "Yakgwa"}, {"id": 49, "name": "Bungeoppang"}]
+
