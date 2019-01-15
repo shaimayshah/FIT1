@@ -254,12 +254,135 @@ body
 
 /***** Start of order online *****/
 
-.order-title {
+.order-title, #order-title {
     color: #442B2D;
     font-weight: bold;
 }
 
+.simpleCart_items, .simpleCart_quantity, .simpleCart_total {
+    color: #442B2D;
+}
+
+.products {
+    list-style: none;
+    float: left;
+    display: inline-block;
+    color: #FFF0E9;
+}
+
+.product {
+    display: inline-block;
+    margin-left: 5px;
+    background: #442B2D;
+    margin-bottom: 10px;
+    border: 2px solid #442B2D;
+    box-shadow: 0 1px 2px #442B2D;
+    border-radius: 3px;
+}
+
+.product .item_name {
+    margin-top: 10px;
+    text-align: center;
+    color: #FFF0E9;
+}
+
+.product img {
+    margin-bottom: 5px;
+    padding: 2px 5px 10px 10px;
+}
+
+.product .item_add,.product-view,.simpleCart_checkout{
+    background: #FFF0E9;
+    padding: 2px 5px 2px 5px;
+    text-decoration: none !important;
+    border: 1px solid #FFF0E9;
+    color: #442B2D;
+}
+.product .item_add {
+
+}
+
+.product .item_price,
+.simpleCart_empty {
+    text-decoration: none !important;
+    padding: 2px 5px 2px 5px;
+    background: #FD8989;
+    color: white;
+    border: 1px solid #FC7070;
+}
+
+.product .item_price {
+    margin-left: 30px;
+}
+.product-total {
+    display: block;
+    background: white;
+    padding: 5px;
+    border: 1px solid whiteSmoke;
+    box-shadow: 0 1px 2px #BEBEBE;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #442B2D;
+}
+.product-Info {
+    display: block;
+    background: white;
+    width:110px;
+    padding: 5px 0 5px 15px;
+    border: 1px solid #E9E9E9;
+    box-shadow: 0 1px 2px #B4B4B4;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #919191;
+    clear:both;
+}
+.items {
+    color: #442B2D;
+}
+
+strong {
+    color: #442B2D;
+}
+
+.headerRow th {
+    width: 100%;
+    background: #442B2D;
+    color: white;
+}
+.itemRow td {
+    background: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.item-increment a {
+    padding: 0 3px 0 3px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.item-decrement a {
+    padding: 0 5px 0 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.item-remove a{
+    background: white;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #D5D5D5;
+}
+
+.simpleCart_tax, .simpleCart_shipping, .simpleCart_grandTotal {
+    color: #442B2D;
+}
+
 /**** End of Order Online *****/
+
 
 /******** Media Queries ********/
 

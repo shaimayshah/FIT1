@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,7 +46,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="menu.html">
                             <span class="glyphicon glyphicon-cutlery lol"></span>
                             <br class="hidden-xs"> Menu</a>
 
@@ -74,41 +74,486 @@
 
 <div id="main-content" class="container">
     <h2 class="text-center order-title">Order Online</h2>
-    <a href="javascript:" class="simpleCart_checkout">
-        <input type="button" value="Submit">
-    </a>
-    <br>
-
-    <a href="javascript:" class="simpleCart_empty">
-        <input type="button" value="Empty Cart">
-    </a>
-
-    <div class="simpleCart_taxRate"></div>
-
-    <div class="simpleCart_total">
-        <p>Total</p>
-    </div>
-
-    <div class="simpleCart_quantity"></div>
-    <div class="simpleCart_items"></div>
-    <div class="simpleCart_tax"></div>
-    <div class="simpleCart_grandTotal"></div>
-
+    <h3 id="appetizers-title" class="text-center">Appetizers</h3>
     <section class="row">
-        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
-            <div class="menu-item-tile simpleCart_shelfItem" data-toggle="tooltip" data-placement="bottom" title="Paneer Tikka">
-                <a class="item_add" href="javascript:"><img width="200" height="200" src="pictures/1.jpg" alt="Paneer Tikka" class="img-responsive">
-                    <span class="item_name">Paneer Tikka</span>
-                    <span class="item_price">100</span><br>
+        <ul class="products">
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Paneer Tikka</p>
+                <img src="pictures/1.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Tandoori Chicken</p>
+                <img src="pictures/2.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥600
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Bhel Puri</p>
+                <img src="pictures/3.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥500
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Samosa</p>
+                <img src="pictures/4.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥300
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Dahi Bhalla</p>
+                <img src="pictures/5.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Aloo Pakora</p>
+                <img src="pictures/6.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Podi Idli</p>
+                <img src="pictures/7.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥450
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Chilli Paneer</p>
+                <img src="pictures/8.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥500
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Kimchi</p>
+                <img src="pictures/9.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥300
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Japchae</p>
+                <img src="pictures/10.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥500
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Tteok</p>
+                <img src="pictures/11.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥500
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Pajeon</p>
+                <img src="pictures/12.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Kimchi Mandu</p>
+                <img src="pictures/13.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Jjin Mandu</p>
+                <img src="pictures/14.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Yaki Mandu</p>
+                <img src="pictures/15.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
 
-                </a>
+    <h3 id="main-course-title" class="text-center">Main Course</h3>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Bulgogi</p>
+                <img src="pictures/16.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥700
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Samgye Tang</p>
+                <img src="pictures/17.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥700
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Bibimbap</p>
+                <img src="pictures/18.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥600
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Bossam</p>
+                <img src="pictures/19.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥600
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Kimchi-Jjigae</p>
+                <img src="pictures/20.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥900
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Sundubu-Jjigae</p>
+                <img src="pictures/21.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥900
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Nakji Bokkeum</p>
+                <img src="pictures/22.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥800
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Seolleongtang</p>
+                <img src="pictures/23.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥750
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Naengmyun</p>
+                <img src="pictures/24.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥800
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Kimchi Bokkeumbap</p>
+                <img src="pictures/25.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥800
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Roti</p>
+                <img src="pictures/26.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥300
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Naan</p>
+                <img src="pictures/27.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥450
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Paratha</p>
+                <img src="pictures/28.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Yellow Dal</p>
+                <img src="pictures/29.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥600
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Butter Chicken</p>
+                <img src="pictures/30.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥750
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Malai Tikka</p>
+                <img src="pictures/31.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥600
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Malai Paneer</p>
+                <img src="pictures/32.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥750
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Shahi Paneer</p>
+                <img src="pictures/33.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥750
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Kadhai Paneer</p>
+                <img src="pictures/34.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥750
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Basmati Rice</p>
+                <img src="pictures/35.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Aloo Gobi</p>
+                <img src="pictures/36.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥650
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Biryani</p>
+                <img src="pictures/37.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥800
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Bhindi Masala</p>
+                <img src="pictures/38.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥650
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <h3 id="desserts-title" class="text-center">Desserts</h3>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Jalebi</p>
+                <img src="pictures/39.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Sooji ka Halwa</p>
+                <img src="pictures/40.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Gajar ka Halwa</p>
+                <img src="pictures/41.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Gukab Jamun</p>
+                <img src="pictures/42.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Shrikhand</p>
+                <img src="pictures/43.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Kheer</p>
+                <img src="pictures/44.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Bingsoo</p>
+                <img src="pictures/45.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Sujeonggwa</p>
+                <img src="pictures/46.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Songpyeon</p>
+                <img src="pictures/47.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Yakgwa</p>
+                <img src="pictures/48.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+            <li class="simpleCart_shelfItem product">
+                <p class="item_name">Bungeoppang</p>
+                <img src="pictures/49.jpg" height="200" width="200" alt="LOL">
+                <br>
+                <span class="item_price">
+                    ￥400
+                </span>
+                <a href="javascript:" class="item_add">Add to Cart</a><br><br>
+            </li>
+        </ul>
+    </section>
+
+    <div class="span6">
+        <div class="product-Info">
+            <span class="simpleCart_quantity"></span> items
+            <button type="button" class="btn" data-toggle="modal" data-target="#myModal">View</button>
+        </div>
+        <div id="myModal" class="modal fade">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="items"><span class="simpleCart_quantity"></span> items</h3>
+            </div>
+            <div class="modal-body">
+                <div class="simpleCart_items"></div>
+                <hr>
+                <div class="left"><strong>Items: </strong><span class="simpleCart_quantity"></span></div>
+                <div class="right"><strong>Total: </strong><span class="simpleCart_total"></span></div>
+                <div class="left"><strong>Tax: </strong><span class="simpleCart_tax"></span></div>
+                <div class="right"><strong>Delivery: </strong><span class="simpleCart_shipping"></span></div>
+                <div class="right"><strong>Final Price: </strong><span class="simpleCart_grandTotal"></span></div>
+
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:" class="simpleCart_empty">Empty</a>
+                <a href="javascript:" class="simpleCart_checkout">Checkout</a>
             </div>
         </div>
-    </section>
 
-    <section class="row">
-        <div></div>
-    </section>
+        </div>
+
+    </div>
 
 
 </div>
@@ -153,31 +598,92 @@
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/simpleCart/simpleCart.min.js"></script>
-<script src="js/index.js"></script>
 <script>
-    simpleCart.currency( "JPY" );
     simpleCart({
-        shippingCustom: function (){
-            if (simpleCart.quantity() > 5) {
+        // array representing the format and columns of the cart,
+        // see the cart columns documentation
+        cartColumns: [
+            { attr: "name" , label: "Name" } ,
+            { attr: "price" , label: "Price", view: 'currency' } ,
+            { view: "decrement" , label: false , text: "-" } ,
+            { attr: "quantity" , label: "Qty" } ,
+            { view: "increment" , label: false , text: "+" } ,
+            { attr: "total" , label: "SubTotal", view: 'currency' } ,
+            { view: "remove" , text: "Remove" , label: false },
+            //{ view: 'link' , label: 'Details' , attr: 'pageLink' , text: 'View More' },
+            {view:'image' , attr:'tumb', label: false}//,
+            //{view:'input', attr:'quantity', label: "Quantity" }
+        ],
+
+        // "div" or "table" - builds the cart as a
+        // table or collection of divs
+        cartStyle: "table",
+
+        // how simpleCart should checkout, see the
+        // checkout reference for more info
+        checkout: {
+            type: "PayPal" ,
+            email: "shaimay.pathways@gmail.com"
+        },
+
+        // set the currency, see the currency
+        // reference for more info
+        currency: "JPY",
+
+        // collection of arbitrary data you may want to store
+        // with the cart, such as customer info
+        data: {},
+
+        // set the cart langauge
+        // (may be used for checkout)
+        language: "english-us",
+
+        // array of item fields that will not be
+        // sent to checkout
+        excludeFromCheckout: [],
+
+        // custom function to add shipping cost
+        shippingCustom: function(){
+            if(simpleCart.quantity() > 5){
                 return 0;
             }
             else {
-                return 100;
+                return 400;
             }
-        }
-    });
-    simpleCart({
-        checkout: {
-            type: "PayPal",
-            email: "shaimay.pathways@gmail.com"
-        }
-    });
+        },
 
-    simpleCart ({
-        taxRate: 0.08
-    });
+        // flat rate shipping option
+        shippingFlatRate: 0,
 
+        // added shipping based on this value
+        // multiplied by the cart quantity
+        shippingQuantityRate: 0,
+
+        // added shipping based on this value
+        // multiplied by the cart subtotal
+        shippingTotalRate: 0,
+
+        // tax rate applied to cart subtotal
+        taxRate: 0.08,
+
+        // true if tax should be applied to shipping
+        taxShipping: false,
+
+        // event callbacks
+        beforeAdd			: null,
+        afterAdd			: null,
+        load				: null,
+        beforeSave		: null,
+        afterSave			: null,
+        update			: null,
+        ready			: null,
+        checkoutSuccess	: null,
+        checkoutFail		: null,
+        beforeCheckout		: null,
+        beforeRemove           : null
+    });
 </script>
+<script src="js/index.js"></script>
 </body>
 
 </html>
