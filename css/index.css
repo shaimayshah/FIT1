@@ -250,6 +250,16 @@ body
 #Kayo p {
     color: #442B2D;
 }
+/**** End of about us ****/
+
+/***** Start of order online *****/
+
+.order-title {
+    color: #442B2D;
+    font-weight: bold;
+}
+
+/**** End of Order Online *****/
 
 /******** Media Queries ********/
 
