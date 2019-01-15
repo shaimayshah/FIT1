@@ -50,4 +50,10 @@ $(function () {
 
 
 
-/***** For loading menu items *****/
+/* For Shopping Cart */
+
+
+
+
+
+

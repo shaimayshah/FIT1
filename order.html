@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ko-Indo Kingdom</title>
+    <title>Order Online</title>
 
     <!-- Import Stylesheets and fonts -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -22,7 +22,6 @@
                 <a href="index.html" class="pull-left visible-md visible-lg">
                     <div id="logo"></div>
                 </a>
-
 
                 <div class="navbar-brand">
                     <a href="index.html"><h1>Ko-Indian Kingdom</h1></a>
@@ -75,9 +74,50 @@
 
 <div id="main-content" class="container">
     <h2 class="text-center order-title">Order Online</h2>
+    <a href="javascript:" class="simpleCart_checkout">
+        <input type="button" value="Submit">
+    </a>
+    <br>
+
+    <a href="javascript:" class="simpleCart_empty">
+        <input type="button" value="Empty Cart">
+    </a>
+
+    <div class="simpleCart_taxRate"></div>
+
+    <div class="simpleCart_total">
+        <p>Total</p>
+    </div>
+
+    <div class="simpleCart_quantity"></div>
+    <div class="simpleCart_items"></div>
+    <div class="simpleCart_tax"></div>
+    <div class="simpleCart_grandTotal"></div>
+
+    <section class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <div class="menu-item-tile simpleCart_shelfItem" data-toggle="tooltip" data-placement="bottom" title="Paneer Tikka">
+                <a class="item_add" href="javascript:"><img width="200" height="200" src="pictures/1.jpg" alt="Paneer Tikka" class="img-responsive">
+                    <span class="item_name">Paneer Tikka</span>
+                    <span class="item_price">100</span><br>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="row">
+        <div></div>
+    </section>
+
+
 </div>
 
+
 <!----End of main content ---->
+
+
+
 
 <!--- Start of Footer --->
 <footer class="panel-footer">
@@ -109,13 +149,35 @@
 </footer>
 
 <!---- End of Footer ---->
-
-<script src="js/simpleCart/simpleCart.min.js"></script>
 <script src="js/ajax-utils.js"></script>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/simpleCart/simpleCart.min.js"></script>
 <script src="js/index.js"></script>
+<script>
+    simpleCart.currency( "JPY" );
+    simpleCart({
+        shippingCustom: function (){
+            if (simpleCart.quantity() > 5) {
+                return 0;
+            }
+            else {
+                return 100;
+            }
+        }
+    });
+    simpleCart({
+        checkout: {
+            type: "PayPal",
+            email: "shaimay.pathways@gmail.com"
+        }
+    });
 
+    simpleCart ({
+        taxRate: 0.08
+    });
+
+</script>
 </body>
 
 </html>
