@@ -212,6 +212,45 @@ body
     font-weight: bold;
 }
 
+/**** ENd of Menu Page *****/
+
+/***** Start of About us Page *****/
+
+#about-title {
+    margin-bottom: 25px;
+    color: #442B2D;
+    font-weight: bold;
+}
+
+#more-title {
+    margin-bottom: 20px;
+    color: #442B2D;
+
+}
+
+#more-title1 {
+    color: #442B2D;
+    font-weight: bold;
+}
+
+.titleShaimay {
+    color: #442B2D;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#Shaimay p {
+    color: #442B2D;
+}
+
+#JiMin p {
+    color: #442B2D;
+}
+
+#Kayo p {
+    color: #442B2D;
+}
+
 /******** Media Queries ********/
 
 /****** For Large Devices ****/
