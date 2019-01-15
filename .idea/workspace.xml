@@ -2,62 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daed641-ba63-42a3-96df-aaa73800f721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/menu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/menu-title.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/tiles-snip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/macuser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/macuser.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Aloo-Gobi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Aloo-Pakora.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Basmati-Rice.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Bhel-Puri.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Bhindi-Masala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Bibimbap.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Bingsuo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Bossam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Bulgogi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Bunggeoppan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Butter-Chicken.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Chicken-Biryani.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Chilli-Paneer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Dahi-Bhalla.cms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Dahi-Bhalla.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Gajar-Ka-Halwa.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Gulab-Jamun.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Japchae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Jjin-Mandu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Kadai-Paneer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Kheer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Kimchi-Bokkeumbap.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Kimchi-Jjigae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Kimchi-Mandu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Kimchi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Naan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Naengmyeon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Pajeon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Paneer-Tikka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Paratha.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Podi-Idli.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Roti.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Samgye-Tang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Samosa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Seolleongtang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Shrikhand.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Songpyeon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Sujeonggwa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Sundubu-Jjigae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Tandoori-Chicken.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Ttaek.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Yakgwa.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Yaki-Mandu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Yellow-Dal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/chicken-malai-tikka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/jalebi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/malai-paneer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/nakjibokkeum.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/shahi-paneer.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/soojia-halwa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/menu-title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/tiles-snip.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,35 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/snippets/menu-title.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/snippets/tiles-snip.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="147">
+              <caret line="391" column="65" lean-forward="true" selection-start-line="391" selection-start-column="65" selection-end-line="391" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -109,17 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
+            <state relative-caret-position="1029">
+              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="176" column="15" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
+            <state relative-caret-position="226">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -151,6 +73,8 @@
       <find>navbar</find>
       <find>Menu</find>
       <find>maincontent</find>
+      <find>dc</find>
+      <find>yak</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,13 +85,14 @@
       <list>
         <option value="$PROJECT_DIR$/js/jquery-3.3.1.js" />
         <option value="$PROJECT_DIR$/snippets/home-snip.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/menu.html" />
         <option value="$PROJECT_DIR$/snippets/menu-title.html" />
-        <option value="$PROJECT_DIR$/snippets/tiles-snip.html" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/js/menu.json" />
+        <option value="$PROJECT_DIR$/snippets/tiles-snip.html" />
+        <option value="$PROJECT_DIR$/snippets/menu-tile.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/menu.html" />
       </list>
     </option>
   </component>
@@ -280,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547362390497</updated>
-      <workItem from="1547362391778" duration="38761000" />
+      <workItem from="1547362391778" duration="40849000" />
     </task>
     <task id="LOCAL-00001" summary="Just trying it out.">
       <created>1547396044902</created>
@@ -342,7 +267,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38761000" />
+    <option name="totallyTimeSpent" value="40849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
@@ -435,47 +360,11 @@
     <entry file="file://$PROJECT_DIR$/pictures/indian-flag.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pictures/11.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/menu-title.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/tiles-snip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/home-snip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pictures/46.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -484,11 +373,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pictures/11.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/snippets/home-snip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pictures/46.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/snippets/tiles-snip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets/menu-tile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="312" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="391" column="65" lean-forward="true" selection-start-line="391" selection-start-column="65" selection-end-line="391" selection-end-column="65" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/menu.json">
       <provider selected="true" editor-type-id="text-editor">
