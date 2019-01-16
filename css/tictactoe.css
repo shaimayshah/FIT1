@@ -1,0 +1,46 @@
+
+.red{
+    display:inline-block;
+    background:red;
+    height:100px;
+    width:100px;
+    float: left;
+    border: 5px solid #0f0f0f;
+}
+.blue{
+    display:inline-block;
+    background:blue;
+    height:100px;
+    width:100px;
+    float: right;
+    border: 5px solid #0f0f0f;
+}
+
+.options{
+    position:absolute;
+    height:100px;
+    width:350px;
+    top:300px;
+    left:50%;
+    margin-left:-175px;
+}
+
+td {
+    border: 5px solid #442B2D;
+    height: 100px;
+    width: 100px;
+    visibility: hidden;
+}
+
+table{
+    position:absolute;
+    left:50%;
+    margin-left:-150px;
+    top:30%;
+}
+
+.lol {
+    font-style: normal;
+    font-weight: lighter;
+    color: #442B2D;
+}
