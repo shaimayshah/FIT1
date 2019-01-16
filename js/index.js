@@ -49,8 +49,7 @@ $(function () {
 })(window);
 
 
-
-/* For Shopping Cart */
+/*Tic Tac Toe Script*/
 
 
 
