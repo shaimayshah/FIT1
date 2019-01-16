@@ -44,3 +44,16 @@ table{
     font-weight: lighter;
     color: #442B2D;
 }
+
+/**** Optimising for mobile UI ****/
+
+@media(max-width: 767px) {
+    .options{
+        position:absolute;
+        height:100px;
+        width:350px;
+        top:400px;
+        left:50%;
+        margin-left:-175px;
+    }
+}
