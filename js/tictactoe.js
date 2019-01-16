@@ -25,6 +25,12 @@ var round = 0;
 var aiCo = "red";
 var huCo = "blue";
 
+    function reset() {
+        round = 0;
+        board = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+        $("td").css("background-color", "transparent");
+    }
+
     function move(element, player, color) {
         console.log("element"+ element.id);
         if (board[element.id] != "H" && board[element.id] != "C") {
@@ -68,12 +74,6 @@ var huCo = "blue";
                 }
             }
         }
-    }
-
-    function reset() {
-        round = 0;
-        board = [0, 1, 2, 3, 4, 5, 6, 7, 8];
-        $("td").css("background-color", "transparent");
     }
 
     function minimax(reboard, player) {
