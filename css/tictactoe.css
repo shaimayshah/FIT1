@@ -25,19 +25,20 @@
     margin-left:-175px;
 }
 
-td {
-    border: 5px solid #442B2D;
-    height: 100px;
-    width: 100px;
-    visibility: hidden;
-}
-
 table{
     position:absolute;
     left:50%;
     margin-left:-150px;
     top:30%;
+    visibility: hidden;
 }
+
+td {
+    border: 5px solid #442B2D;
+    height: 100px;
+    width: 100px;
+}
+
 
 .lol {
     font-style: normal;
