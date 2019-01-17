@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8daed641-ba63-42a3-96df-aaa73800f721" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tictactoe.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tictactoe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tictactoe.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tictactoe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/home-snip.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
+            <state relative-caret-position="183">
+              <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#html#0;n#!!top" />
@@ -37,17 +40,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/tictactoe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+            <state relative-caret-position="348">
+              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/tictactoe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/tictactoe.js">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="95" column="53" lean-forward="true" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -78,6 +99,8 @@
       <find>huPlayer</find>
       <find>aiPlayer</find>
       <find>iter</find>
+      <find>#call</find>
+      <find>#order-b</find>
       <find>dots</find>
     </findStrings>
   </component>
@@ -99,10 +122,7 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test.css" />
         <option value="$PROJECT_DIR$/order.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/snippets/home-snip.html" />
-        <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/menu.html" />
         <option value="$PROJECT_DIR$/FIT-Exercises/game.html" />
         <option value="$PROJECT_DIR$/css/TRY.js" />
@@ -112,8 +132,11 @@
         <option value="$PROJECT_DIR$/try.js" />
         <option value="$PROJECT_DIR$/quiz.html" />
         <option value="$PROJECT_DIR$/game.html" />
-        <option value="$PROJECT_DIR$/css/tictactoe.css" />
         <option value="$PROJECT_DIR$/js/tictactoe.js" />
+        <option value="$PROJECT_DIR$/css/tictactoe.css" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -145,17 +168,18 @@
             <path>
               <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled1" type="462c0819:PsiDirectoryNode" />
               <item name="pictures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-              <item name="snippets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.game.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="game.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled1/game.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -212,10 +236,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.game.html" />
         <item itemvalue="Node.js.tictactoe.js" />
         <item itemvalue="JavaScript Debug.try.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.order.html" />
       </list>
     </recent_temporary>
@@ -230,7 +254,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547362390497</updated>
-      <workItem from="1547362391778" duration="71906000" />
+      <workItem from="1547362391778" duration="78265000" />
     </task>
     <task id="LOCAL-00001" summary="Just trying it out.">
       <created>1547396044902</created>
@@ -292,18 +316,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71906000" />
+    <option name="totallyTimeSpent" value="78265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.5020747" side_tool="true" weight="0.19943622" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.19943622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.19943622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3449235" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3449235" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32962447" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -493,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11350">
@@ -511,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/home-snip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="105" selection-start-line="1" selection-start-column="95" selection-end-line="1" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -548,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.3-1-0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -565,24 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="442" selection-start-line="442" selection-end-line="442" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tictactoe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
+        <state relative-caret-position="183">
+          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#html#0;n#!!top" />
@@ -592,10 +581,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/tictactoe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/tictactoe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="95" column="53" lean-forward="true" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets/home-snip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>

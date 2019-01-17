@@ -57,3 +57,7 @@ table{
         margin-left:-175px;
     }
 }
+
+#0, #3, #6 {
+    border-left: none;
+}
