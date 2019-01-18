@@ -29,7 +29,7 @@ var human = "blue";
         $("td").css("background-color", "transparent");
     }
 
-    function winning(board, player) {
+    function win(board, player) {
         if (
             (board[0] == player && board[1] == player && board[2] == player) ||
             (board[3] == player && board[4] == player && board[5] == player) ||
@@ -52,7 +52,7 @@ var human = "blue";
             $(element).css("background-color", color);
             board[element.id] = player;
 
-            if (winning(board, player)) {
+            if (win(board, player)) {
                 setTimeout(function() {
                     alert("YOU WIN");
                     reset();
@@ -70,7 +70,7 @@ var human = "blue";
                 var selector = "#" + index;
                 $(selector).css("background-color", ai);
                 board[index] = a;
-                if (winning(board, a)) {
+                if (win(board, a)) {
                     setTimeout(function() {
                         alert("YOU LOSE");
                         reset();
@@ -89,26 +89,26 @@ var human = "blue";
 
     function minimax(newBoard, player) {
         count++;
-        let array = avail(newBoard);
-        if (winning(newBoard, hu)) {
+        let spots = available(newBoard);
+        if (win(newBoard, hu)) {
             return {
                 score: -10
             };
-        } else if (winning(newBoard, a)) {
+        } else if (win(newBoard, a)) {
             return {
                 score: 10
             };
-        } else if (array.length === 0) {
+        } else if (spots.length === 0) {
             return {
                 score: 0
             };
         }
 
-        var moves = [];
-        for (var i = 0; i < array.length; i++) {
+        var emptyBoxes = [];
+        for (var i = 0; i < spots.length; i++) {
             var move = {};
-            move.index = newBoard[array[i]];
-            newBoard[array[i]] = player;
+            move.index = newBoard[spots[i]];
+            newBoard[spots[i]] = player;
 
             if (player == a) {
                 var g = minimax(newBoard, hu);
@@ -117,34 +117,33 @@ var human = "blue";
                 var g = minimax(newBoard, a);
                 move.score = g.score;
             }
-            newBoard[array[i]] = move.index;
-            moves.push(move);
+            newBoard[spots[i]] = move.index;
+            emptyBoxes.push(move);
         }
 
         var bestMove;
         if (player === a) {
             var bestScore = -99999;
-            for (var i = 0; i < moves.length; i++) {
-                if (moves[i].score > bestScore) {
-                    bestScore = moves[i].score;
+            for (var i = 0; i < emptyBoxes.length; i++) {
+                if (emptyBoxes[i].score > bestScore) {
+                    bestScore = emptyBoxes[i].score;
                     bestMove = i;
                 }
             }
         } else {
             var bestScore = 99999;
-            for (var i = 0; i < moves.length; i++) {
-                if (moves[i].score < bestScore) {
-                    bestScore = moves[i].score;
+            for (var i = 0; i < emptyBoxes.length; i++) {
+                if (emptyBoxes[i].score < bestScore) {
+                    bestScore = emptyBoxes[i].score;
                     bestMove = i;
                 }
             }
         }
-        return moves[bestMove];
+        return emptyBoxes[bestMove];
     }
 
-//available spots
-    function avail(newBoard) {
+    function available(newBoard) {
         return newBoard.filter(s => s != "H" && s != "A");
     }
 
-// winning combinations
+
