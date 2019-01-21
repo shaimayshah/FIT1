@@ -54,13 +54,13 @@ var human = "blue";
 
             if (win(board, player)) {
                 setTimeout(function() {
-                    alert("YOU WIN");
+                    alert("You Win! The coupon code is: iW0n! Please call us for the discount.");
                     reset();
                 }, 500);
                 return;
             } else if (round > 8) {
                 setTimeout(function() {
-                    alert("TIE");
+                    alert("It's a tie. You may try again.");
                     reset();
                 }, 500);
                 return;
@@ -72,7 +72,7 @@ var human = "blue";
                 board[index] = a;
                 if (win(board, a)) {
                     setTimeout(function() {
-                        alert("YOU LOSE");
+                        alert("You have lost!");
                         reset();
                     }, 500);
                     return;
